@@ -1,0 +1,19 @@
+Package: ohwhaley
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given ="Lexi",
+ family="Nojin",
+ role=c("aut","cre"),
+ email="alexis.nojin1@mq.edu.au")
+Description: summon a whale for a customisable pick-me-up
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    glue,
+    magrittr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
